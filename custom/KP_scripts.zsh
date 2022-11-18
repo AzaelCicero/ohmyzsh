@@ -42,4 +42,4 @@ fi
 # ROS helpers
 [ -f /opt/ros/melodic/setup.${SCRIPT_EXT} ] && alias ros1init='conda activate ROS1 && source /opt/ros/melodic/setup.${SCRIPT_EXT}'
 [ -f /opt/ros/dashing/setup.${SCRIPT_EXT} ] && alias ros2init='source /opt/ros/dashing/setup.${SCRIPT_EXT}'
-alias wsinit='[ -f $(pwd)/devel/setup.${SCRIPT_EXT} ]  && conda activate ROS1 && source $(pwd)/devel/setup.${SCRIPT_EXT}; [ -f $(pwd)/install/setup.${SCRIPT_EXT} ] && source $(pwd)/install/setup.${SCRIPT_EXT};'
+
